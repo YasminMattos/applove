@@ -1,0 +1,196 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+}
+
+img {
+  vertical-align: middle;
+  width: 200px;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  box-sizing: border-box;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+  display: block;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase  {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
+h1, h2, h5, a {
+  text-transform: uppercase;
+}
+
+/*Estructura de menú de navegación*/
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 30px 90px;
+  font-weight: bold;
+}
+
+li {
+  width: 100px;
+  display: inline-block;
+}
+
+header {
+  background-color: white;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+nav {
+   position: absolute;
+}
+
+.logo-header {
+  width: 80px;
+  transform: translateX(500%);
+}
+
+.box-header {
+  display: inline;
+}
+
+ /*Estilos: Primera sección del body*/
+
+.first-section {
+  background-image: url("../assets/images/bg-home.jpg");
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  display: block;
+}
+
+h1 {
+  font-size:50px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #2ecc71;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+button #button {
+  color: white;
+}
+
+/*Estilos: Segunda sección del body*/
+
+.second-section {
+  background-color: #f17c72;
+  text-align: center;
+  color: white;
+  line-height: 25px;
+  display: block;
+}
+
+h2 {
+  margin-top: 0px;
+  padding-top: 100px;
+  font-size: 35px;
+}
+
+.services {
+  box-sizing: border-box;
+  display: inline-block;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  width: 33%;
+}
+
+/*Estilos: Tercera sección del body*/
+
+.third-section {
+  text-align: center;
+  line-height: 25px;
+  display: block;
+}
+
+.laptop {
+  padding-top: 25px;
+  width: 950px;
+}
+
+.container div {
+  padding-left: 120px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+  float: left;
+  margin: 5px;
+}
+
+/*Estilos del pie de página*/
+footer {
+  position: absolute;
+  margin-bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: #373b47;
+}
