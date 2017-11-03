@@ -27,20 +27,13 @@ img {
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 14px;
-  padding-right: 14px;
+  padding-left: 100px;
   box-sizing: border-box;
 }
 
 .container:before, .container:after {
   content: " ";
   display: table;
-}
-
-*:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
 }
 
 .container:after {
@@ -72,8 +65,6 @@ a:hover {
 .text-uppercase  {
   text-transform: uppercase;
 }
-
-/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
 h1, h2, h5, a {
   text-transform: uppercase;
@@ -116,9 +107,13 @@ nav {
 
 .first-section {
   background-image: url("../assets/images/bg-home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
-  line-height: 100px;
+  line-height: 75px;
   color: white;
+  width:100%;
+  padding-bottom: 100px;
   display: block;
 }
 
@@ -148,6 +143,7 @@ button #button {
   color: white;
   line-height: 25px;
   display: block;
+  width: 100%;
 }
 
 h2 {
@@ -164,12 +160,13 @@ h2 {
   width: 33%;
 }
 
-/*Estilos: Tercera sección del body*/
+/*Images section*/
 
 .third-section {
   text-align: center;
   line-height: 25px;
   display: block;
+  width: 100%;
 }
 
 .laptop {
